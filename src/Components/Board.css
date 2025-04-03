@@ -1,0 +1,107 @@
+.board {
+  position: relative;
+  width: 300px;
+  height: 750px;
+  margin: 0 32px;
+  background-color: yellowgreen;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.tasks-style {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.card-style {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-card-style {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-add-card {
+  background-color: #008cba;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-add-card:hover {
+  background-color: #005f7a;
+}
+
+.btn-delete-board {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-delete-board:hover {
+  background-color: #d14b38;
+}
+
+.card-title-style {
+  font-weight: 600;
+  width: 175px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.btn-delete-card {
+  background-color: transparent;
+  color: aqua;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-delete-card:hover {
+  color: aqua;
+}
+.btn-delete-task {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: red;
+}
+
+.btn-delete-task:hover {
+  color: darkred;
+}

@@ -1,0 +1,30 @@
+/* App.css - Main App Styles */
+#app {
+  height: 100vh;
+  padding-top: 16px;
+}
+
+#dashboard {
+  margin-top: 32px;
+  display: flex;
+  overflow-x: auto;
+  padding: 0 16px;
+}
+
+#flex-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.btn-add-list {
+  background-color: #7fffd4;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-add-list:hover {
+  background-color: #5ed6b6;
+}
