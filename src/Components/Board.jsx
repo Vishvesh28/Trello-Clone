@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import storageLocal from "/Users/vrihas/trello/src/Storage/Local.jsx";
+import storageLocal from "../Storage/Local";
 import "./Board.css";
 import Modal from "./Modal"; 
 
